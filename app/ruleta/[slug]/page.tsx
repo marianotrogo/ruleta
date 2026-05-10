@@ -82,7 +82,7 @@ export default function RuletaDinamica() {
         <span className="text-indigo-600">{cleanSlug}</span>
       </h1>
 
-      <div className="relative scale-[0.85] sm:scale-100 shadow-2xl rounded-full border-[6px] border-slate-50 bg-white">
+      <div className="relative scale-[0.95] sm:scale-100 shadow-2xl rounded-full border-[6px] border-slate-50 bg-white">
         <Wheel
           mustStartSpinning={mustSpin}
           prizeNumber={prizeNumber}
@@ -104,14 +104,14 @@ export default function RuletaDinamica() {
           <button
             onClick={handleSpinClick}
             disabled={mustSpin}
-            className="w-16 h-16 rounded-full border-4 border-white shadow-xl bg-white flex items-center justify-center active:scale-75 transition-transform overflow-hidden"
+            className="w-20 h-20 rounded-full border-4 border-white shadow-xl bg-white flex items-center justify-center active:scale-75 transition-transform overflow-hidden"
           >
-            <img src="/logo.png" alt="Girar" className="w-10 h-10 object-contain" />
+            <img src="/logo.png" alt="Girar" className="w-40 h-40 object-contain" />
           </button>
         </div>
       </div>
 
-      <p className="mt-8 text-slate-300 font-black text-[9px] tracking-[0.2em] uppercase animate-pulse">
+      <p className="mt-8 text-blue-800 font-black text-[9px] tracking-[0.2em] uppercase">
         Toca el centro para girar
       </p>
 

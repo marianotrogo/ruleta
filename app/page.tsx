@@ -10,8 +10,8 @@ const categorias = [
     color: 'bg-indigo-500' 
   },
   { 
-    id: 'personal limpieza', 
-    nombre: 'Personal de Limpieza', 
+    id: 'personal maestranza', 
+    nombre: 'Personal de Maestranza', 
     icono: <UserRound />, 
     color: 'bg-emerald-500' 
   },
@@ -19,7 +19,7 @@ const categorias = [
     id: 'personal docente', 
     nombre: 'Personal Docente', 
     icono: <GraduationCap />, 
-    color: 'bg-orange-500' 
+    color: 'bg-gray-500' 
   },
 ];
 
@@ -29,13 +29,13 @@ export default function Menu() {
       <div className="text-center mb-12">
         <div className="bg-indigo-50 w-20 h-20 rounded-3xl flex items-center justify-center mx-auto mb-4 shadow-sm">
           <img 
-            src="/images.png" 
+            src="/logo.png" 
             alt="Logo T.O." 
             className="w-full h-full object-contain drop-shadow-md" 
           />
         </div>
         <h1 className="text-4xl font-black text-slate-900 tracking-tighter uppercase">
-          T.O. <span className="text-indigo-600">Interactiva</span>
+          Juga y <span className="text-indigo-600">Gana Salud</span>
         </h1>
         <p className="text-slate-400 font-bold text-sm tracking-widest mt-2 uppercase">Selecciona tu área</p>
       </div>
