@@ -11,7 +11,7 @@ export const RULETAS_DATA: Record<string, any[]> = {
     { option: 'Premio 9', title: 'Hidratación', content: 'La deshidratación puede generar cansancio. Tip: tomá agua durante el día. Tu TO te recuerda: lo básico también cuida.', icon: '💧', style: { backgroundColor: '#818cf8', textColor: 'white' } },
     { option: 'Premio 10', title: 'Entorno Ergonómico', content: 'Una mala altura de pantalla favorece que te encorves. Consejo TO: adaptá el entorno a vos, no al revés.', icon: '🖥️', style: { backgroundColor: '#4f46e5', textColor: 'white' } },
   ],
-  "personal limpieza": [
+  "personal maestranza": [
     { option: 'Premio 1', title: 'Cuidado Postural', content: '¿Sabías que cuidar tu postura previene dolores? Tip T.O: mantené tu espalda alineada y tomá pausas conscientes.', icon: '💪', style: { backgroundColor: '#059669', textColor: 'white' } },
     { option: 'Premio 2', title: 'Gestión Emocional', content: 'Reconocer tus emociones ayuda a gestionar mejor el día. Si te sentís saturado, hacé una pausa para reconocer cómo estás.', icon: '❤️', style: { backgroundColor: '#10b981', textColor: 'white' } },
     { option: 'Premio 3', title: 'Levantamiento de Peso', content: 'Cargar demasiado peso aumenta el riesgo de lesiones. Tip: dividí la carga o pedí ayuda. No lo hagas solo.', icon: '📦', style: { backgroundColor: '#34d399', textColor: 'white' } },
